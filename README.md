@@ -1,7 +1,7 @@
 
 
 # Java concurrent & time-based rate-limiting library based on token-bucket algorithm and  semaphores.
-
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.milos01/rate-limiter-spring-boot-starter/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.github.milos01/rate-limiter-spring-boot-starter)
 [![Licence](https://img.shields.io/hexpm/l/plug.svg)](https://github.com/milos01/rate-limter-spring-boot-starter/blob/main/LICENSE)
 ## About
 This Spring Boot starter project is meant to be used to overcome issues that I had when trying to use a combined approach of using both concurrent and time-based throttling inside Spring Boot applications. It's built on top of [Bucket4J](https://github.com/vladimir-bukhtoyarov/bucket4j)  (token-bucket algorithm implementation) library and semaphores which enables concurrent rate limiting. The idea was seamlessly plugging this library in any new or ongoing project and not write a whole bunch of configuration, logic adaptation, and so on. 
