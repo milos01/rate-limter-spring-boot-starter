@@ -7,9 +7,9 @@
         <version>2.3.4.RELEASE</version>
         <relativePath />
     </parent>
-    <groupId>com.mandric</groupId>
+    <groupId>com.github.milos01</groupId>
     <artifactId>rate-limiter-spring-boot-starter</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
     <name>rate-limiter-spring-boot-starter</name>
     <description>Rate limiting spring boot starter project</description>
     <url>https://github.com/milos01/rate-limter-spring-boot-starter</url>
@@ -32,7 +32,7 @@
 
     <scm>
         <connection>scm:git:git://github.com/milos01/rate-limter-spring-boot-starter.git</connection>
-        <developerConnection>scm:git:ssh://github.com/milos01/rate-limter-spring-boot-starter.git</developerConnection>
+        <developerConnection>scm:git:ssh://github.com:milos01/rate-limter-spring-boot-starter.git</developerConnection>
         <url>https://github.com/milos01/rate-limter-spring-boot-starter</url>
       <tag>rate-limiter-spring-boot-starter-1.0.0</tag>
   </scm>

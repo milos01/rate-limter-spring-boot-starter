@@ -19,7 +19,7 @@ First of all, you need to include this library along with the desired In-memory 
 ```xml
 <dependency>
     <groupId>com.github.milos01</groupId>
-    <artifactId>rate-limter-spring-boot-starter</artifactId>
+    <artifactId>rate-limiter-spring-boot-starter</artifactId>
     <version>1.0.0</version>
 </dependency>
 
